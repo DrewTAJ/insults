@@ -1,0 +1,12 @@
+<ion-view view-title="Generator">
+    <ion-content has-header="false" padding="true" scroll="false">
+        <div class="row">
+            <div class="col">
+                <h3 class="text-center insult" id="insult">{{ vm.insult }}</h3>
+                <button class="button button-block button-positive" ng-click="vm.generateInsult()">Generate Insult!</button>
+                <button class="button button-outline button-positive button-block" ng-click="vm.copyToClipboard($event)">Copy to Clipboard</button>
+                <textarea class="hidden" id="js-copytextarea">{{ vm.insult }}</textarea>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

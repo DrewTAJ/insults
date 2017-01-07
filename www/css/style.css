@@ -1,0 +1,36 @@
+/* Empty. Add your own CSS if you like */
+/*.scroll-content {
+  display: table !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+.scroll {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}*/
+
+/*.parent {
+  position: relative;
+}
+.child {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}*/
+
+.row {
+    margin-top:15px;
+}
+
+.row .button { 
+    margin-top:40px
+}
+
+.insult {
+    font-size:21px;
+}
+
+.hidden {
+  display:none;
+}

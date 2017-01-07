@@ -1,0 +1,11 @@
+<ion-view view-title="Settings">
+    <ion-content>
+        <ion-list>
+            <ion-item ui-sref="tabs.insults({index:0})" class="item item-icon-right">Word 1 <i class="icon ion-ios-arrow-forward"></i></ion-item>
+            <ion-item ui-sref="tabs.insults({index:1})" class="item item-icon-right">Word 2 <i class="icon ion-ios-arrow-forward"></i></ion-item>
+            <ion-item ui-sref="tabs.insults({index:2})" class="item item-icon-right">Word 3 <i class="icon ion-ios-arrow-forward"></i></ion-item>
+            <ion-item class="item-divider">Settings</ion-item>
+            <ion-item ng-click="vm.restoreInsult()">Restore Insults to Default</ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

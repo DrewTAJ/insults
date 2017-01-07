@@ -1,0 +1,25 @@
+<ion-view view-title="Insult">
+    <ion-content>
+        <!--<form>
+            <input type="text" value="{{vm.insult}}" />
+            <input type="submit" value="Save" />
+        </form>-->
+        <form class="list" ng-submit="vm.submit()">
+            <label class="item item-input">
+                <input type="text" placeholder="Insult" ng-model="vm.insult"/>
+            </label>
+            <div class="padding">
+                <input class="button button-positive button-block" value="Submit" type="submit" />
+            </div>
+            <!--<label class="item item-input">
+                <input type="text" placeholder="Last Name">
+            </label>
+            <label class="item item-input">
+                <textarea placeholder="Comments"></textarea>
+            </label>-->
+        </form>
+        <!--<ion-list>
+            <ion-item ng-repeat="insult in vm.insults" ui-sref="insult({index:vm.index,insult:$index})">{{ insult }}</ion-item>
+        </ion-list>-->
+    </ion-content>
+</ion-view>
